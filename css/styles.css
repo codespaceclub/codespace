@@ -2138,6 +2138,29 @@ color: black;
 }
 
 
+.button:hover, .hero-button:hover, .event-btn_3:hover {
+  background: #0766a4;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+}
+
+.hero-button, .event-btn_3 {
+    background: #0766a4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: #FFFFFF;;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.event-btn_3 {
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+
 .past-event{
   border: 2px solid #2F5BE7;
   background-color: transparent;
